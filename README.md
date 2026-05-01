@@ -12,6 +12,7 @@ This was my first ever major Python project, where I taught myself how to web sc
 
 ## Requirements
 - Python 3.10+
+- pip 25.2+
 - (Optional) Virtual environment tool
 - OS: Windows (preferred)
 
@@ -33,7 +34,7 @@ venv\Scripts\activate
 ```
 python -m main
 ```
-The first panel of the GUI should appear with instructions.
+After the relevant libraries are pip-installed, the first panel of the GUI should appear with instructions.
 
 ## Contributing
 As this is an archive for my NEA project, I will disable pull requests as the project should remain in its current state.
