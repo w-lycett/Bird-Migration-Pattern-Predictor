@@ -1,5 +1,21 @@
 
 
+# SET UP PIP INSTALL
+
+# subprocess + sys = required to pip install within code
+import subprocess
+import sys
+# Function to pip install packages
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+# Pip install the relevant modules
+install("pandas")
+install("selenium")
+install("numpy")
+install("scipy")
+install("scikit-learn")
+install("matplotlib")
+
 # IMPORT LIBRARIES
 
 # Tkinter = required for GUI generation
